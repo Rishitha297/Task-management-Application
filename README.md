@@ -1,11 +1,11 @@
 # Task Management Application
 
-## 📌 Overview
+##  Overview
 A full-stack Task Management Web Application built using MERN-style architecture for creating, updating, deleting, and tracking tasks with secure user authentication.
 
 ---
 
-## ✨ Features
+##  Features
 - User Registration & Login (Authentication)
 - Secure JWT-based Authorization
 - Create, Read, Update, Delete (CRUD) Tasks
@@ -15,7 +15,7 @@ A full-stack Task Management Web Application built using MERN-style architecture
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 ### Frontend
 - HTML
@@ -36,41 +36,37 @@ A full-stack Task Management Web Application built using MERN-style architecture
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
+
+```text
 TaskManager/
 │
 ├── backend/
-│ ├── config/
-│ │ └── db.js
-│ │
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ └── taskController.js
-│ │
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ │
-│ ├── models/
-│ │ ├── User.js
-│ │ └── Task.js
-│ │
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ └── taskRoutes.js
-│ │
-│ ├── index.js
-│ ├── package.json
-│ └── package-lock.json
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── taskController.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Task.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── taskRoutes.js
+│   ├── index.js
+│   ├── package.json
+│   └── package-lock.json
 │
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── main.js
-│ │ └── style.css
-│ │
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
+│   ├── public/
+│   ├── src/
+│   │   ├── main.js
+│   │   └── style.css
+│   ├── index.html
+│   ├── vite.config.js
+│   └── package.json
 │
 ├── .env
 ├── .gitignore
@@ -78,7 +74,7 @@ TaskManager/
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 ### Backend
 ```bash
@@ -94,12 +90,12 @@ GET /api/tasks → Get all tasks
 POST /api/tasks → Create new task
 PUT /api/tasks/:id → Update task
 DELETE /api/tasks/:id → Delete task
-🔐 Authentication Flow
+ Authentication Flow
 User registers or logs in
 Server generates a JWT token
 Token is stored in frontend
 Token is sent with API requests
 Backend verifies token using middleware
-👩‍💻 Author
+ Author
 
 Rishitha
