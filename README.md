@@ -72,30 +72,3 @@ TaskManager/
 ├── .gitignore
 └── README.md
 
----
-
-##  Running the Project
-
-### Backend
-```bash
-http://localhost:5000
-http://localhost:5173
-
-🔗 API Endpoints
-Auth Routes
-POST /api/auth/register → Register user
-POST /api/auth/login → Login user
-Task Routes
-GET /api/tasks → Get all tasks
-POST /api/tasks → Create new task
-PUT /api/tasks/:id → Update task
-DELETE /api/tasks/:id → Delete task
- Authentication Flow
-User registers or logs in
-Server generates a JWT token
-Token is stored in frontend
-Token is sent with API requests
-Backend verifies token using middleware
- Author
-
-Rishitha
