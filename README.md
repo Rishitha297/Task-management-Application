@@ -35,6 +35,30 @@ A full-stack Task Management Web Application built using MERN-style architecture
 - Node.js (Runtime Environment)
 
 ---
+## 🚀 Running the Project
+
+### 🖥 Backend
+- URL: http://localhost:5000
+
+---
+
+### 🌐 Frontend
+- URL: http://localhost:5173
+
+---
+
+(Vite default port)
+
+## 🎯 Outcomes
+
+- Secure user authentication system using JWT  
+- Full CRUD operations for task management  
+- Responsive UI for mobile and desktop devices  
+- Clean separation of frontend and backend  
+- REST API integration between client and server  
+- Scalable project structure using MVC pattern  
+
+
 
 ##  Project Structure
 
@@ -71,4 +95,4 @@ TaskManager/
 ├── .env
 ├── .gitignore
 └── README.md
-
+---
